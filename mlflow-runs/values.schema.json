@@ -51,7 +51,7 @@
                 "name": {
                   "type": "string",
                   "description": "The name of the secret",
-                  "default": "azure-token"
+                  "default": "gcp-token"
                 },
                 "key": {
                   "type": "string",

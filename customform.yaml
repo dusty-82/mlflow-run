@@ -30,10 +30,9 @@ spec:
       color: ${ .getCompositionDefinition.status.conditions[] | select(.type == "Ready") | if .status == "False" then "orange" elif .status == "True" then "green" else "grey" end }
       content: This is a card for MLFlow model runs
       icon: fa-person-running
-      tags: mlflow-system,0.0.3
-      title: MLFlow Model Runs
+      tags: mlflow-system,0.0.4
+      title: Test Model 1
       status: ${ .getCompositionDefinition.status.conditions[] | select(.type == "Ready") | "Ready:" + .status }
-      date: ${ .getCompositionDefinition.metadata.creationTimestamp }
   propsRef:
     name: template-mlflow-runs-card
     namespace: mlflow-system
@@ -68,7 +67,7 @@ spec:
   actions:
     - template:
         id: submit
-        apiVersion: composition.krateo.io/v0-0-3
+        apiVersion: composition.krateo.io/v0-0-4
         verb: POST
         resource: mlflowruns
         payloadToOverride:
@@ -78,7 +77,7 @@ spec:
           value: ${ "mlflow-system" }
   app:
     template:
-      schema: ${ .getCRD | .spec.versions[] | select(.name == "v0-0-3") | .schema.openAPIV3Schema.properties.spec.properties }
+      schema: ${ .getCRD | .spec.versions[] | select(.name == "v0-0-4") | .schema.openAPIV3Schema.properties.spec.properties }
       # propertiesToHide: 
       # - mlflow.properties.credentials
       # - mlflow.properties.repo
