@@ -6,5 +6,9 @@ metadata:
 spec:
   chart:
     repo: mlflow-test
+<<<<<<< HEAD
     url: https://github.com/dusty-82/
+=======
+    url: https://github.com/dusty-82/mlflow-run
+>>>>>>> 7d28acc (add index)
     version: 0.0.4
