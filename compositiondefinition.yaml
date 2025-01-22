@@ -6,5 +6,5 @@ metadata:
 spec:
   chart:
     repo: mlflow-test
-    url: https://github.com/dusty-82/mlflow-run
+    url: https://dusty-82.github.io/mlflow-run
     version: 0.0.4
