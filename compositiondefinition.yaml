@@ -7,4 +7,4 @@ spec:
   chart:
     repo: mlflow-test
     url: https://github.com/dusty-82/
-    version: 0.0.3
+    version: 0.0.4
