@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  mlflow-test:
+  mlflow-runs:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2025-01-22T15:52:58.247155115Z"
+    created: "2025-01-22T16:27:16.754646945Z"
     description: A Helm chart for Kubernetes
-    digest: 5b7322172db686edbbee6e672dbff00f7f1cf2870de96242015aaa3ac65b6ea2
-    name: mlflow-test
+    digest: 24b0875ea63929b36c55cd246f7eb5fe67898a1b492b124fb30c7e4d5e45c294
+    name: mlflow-runs
     type: application
     urls:
-    - https://dusty-82.github.io/mlflow-run/mlflow-test-0.0.4.tgz
+    - https://dusty-82.github.io/mlflow-run/mlflow-runs-0.0.4.tgz
     version: 0.0.4
-generated: "2025-01-22T15:52:58.246646449Z"
+generated: "2025-01-22T16:27:16.754296072Z"

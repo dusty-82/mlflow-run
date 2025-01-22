@@ -5,6 +5,6 @@ metadata:
   namespace: mlflow-system
 spec:
   chart:
-    repo: mlflow-test
+    repo: mlflow-runs
     url: https://dusty-82.github.io/mlflow-run
     version: 0.0.4
