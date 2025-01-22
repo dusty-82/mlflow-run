@@ -9,6 +9,6 @@ entries:
     name: mlflow-test
     type: application
     urls:
-    - https://dusty-82.github.io/mlflow-run/mlflow-test-0.0.4.tgz/mlflow-test-0.0.4.tgz
+    - https://dusty-82.github.io/mlflow-run/mlflow-test-0.0.4.tgz
     version: 0.0.4
 generated: "2025-01-22T15:42:57.149997177Z"
